@@ -1,0 +1,121 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    align-items: left;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .checkboxContainer {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .checkboxLabel {
+    font-size: 14px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .ssoHeading {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .left-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+    width: max-content;
+  }
+  
+  .userListContainer {
+    margin-top: 20px;
+  }
+  
+  .userListTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .userListTable th,
+  .userListTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .userListTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .userListTable td img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .logoutButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #d63426;
+  }
+  
